@@ -1,5 +1,5 @@
 ## About
-This extension allows you to change active project when Solution contains multiple Projects, aiming to achieve maximum manual control.
+This extension allows you to change active project when Solution contains multiple Projects, also aiming to achieve maximum manual control.
 ![](./assets/sample.gif)
 
 ## Pre-requirements
