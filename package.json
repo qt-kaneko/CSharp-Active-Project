@@ -1,0 +1,24 @@
+{
+	"name": "csharp-active-project",
+  "displayName": "C# Active Project",
+  "publisher": "qt-kaneko",
+
+  "author": "Kaneko Qt",
+	"description": "Select active C# project in VSCode.",
+	"version": "1.0.0",
+  "icon": "assets/icon.png",
+  "categories": ["Other"],
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "repository": {"type": "git", "url": "https://github.com/qt-kaneko/CSharp-Active-Project.git"},
+  "homepage": "https://github.com/qt-kaneko/CSharp-Active-Project",
+  "keywords": ["csharp", "project", "active", "select"],
+  "preview": true,
+
+	"engines": {"vscode": "^1.74.0"},
+	"activationEvents": ["onStartupFinished"],
+	"main": "./extension.js",
+	"devDependencies": {
+		"@types/node": "^20.8.3",
+		"@types/vscode": "^1.73.0"
+	}
+}

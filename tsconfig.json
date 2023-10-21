@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "ESNext",
+    "module": "CommonJS",
+    "checkJs": true,
+
+    "outDir": "dist",
+
+    "sourceMap": true,
+    "incremental": true
+  },
+  "include": ["src"]
+}
