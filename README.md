@@ -1,5 +1,8 @@
 ## About
 This extension allows you to change active project when Solution contains multiple Projects, also aiming to achieve maximum manual control.
+
+#### How it works
+Extension changes `program` property of first launch configuration + second element of `args` in first task, any other properties are left to your discretion.
 ![](./assets/sample.gif)
 
 ## Pre-requirements
@@ -55,6 +58,3 @@ This extension allows you to change active project when Solution contains multip
 >   ]
 > }
 > ```
-
-## How it works
-Extension changes `program` property of first launch configuration + second element of `args` in first task, any other properties are left to your discretion.
